@@ -23,7 +23,7 @@ export const FormWrap = styled.div`
   flex-direction: column;
   justify-content: center;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 600px) {
     height: 80%;
   }
 `;
@@ -36,9 +36,24 @@ export const Icon = styled(Link)`
   font-weight: 700;
   font-size: 32px;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 600px) {
     margin-left: 16px;
     margin-top: 8px;
+  }
+`;
+
+export const ContactPageIcon = styled(Link)`
+  margin-left: 32px;
+  margin-top: 32px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+
+  @media screen and (max-width: 600px) {
+    margin-left: 8px;
+    margin-top: 20px;
+    font-size: 24px;
   }
 `;
 
@@ -48,8 +63,8 @@ export const FormContent = styled.div`
   flex-direction: column;
   justify-content: center;
 
-  @media screen and (max-width: 480px) {
-    padding: 10px;
+  @media screen and (max-width: 600px) {
+    padding: 15px;
   }
 `;
 
@@ -68,8 +83,9 @@ export const Form = styled.form`
   justify-content: center;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 
-  @media screen and (max-width: 400px) {
-    padding: 32px 32px;
+  @media screen and (max-width: 600px) {
+    height: 70%;
+    width: 90%;
   } ;
 `;
 
@@ -79,6 +95,10 @@ export const FormH1 = styled.h1`
   font-size: 30px;
   font-weight: 400;
   text-align: center;
+
+  @media screen and (max-width: 600px) {
+    font-size: 16px;
+  } ;
 `;
 
 export const FormLabel = styled.label`
@@ -94,6 +114,10 @@ export const FormInput = styled.input`
   height: 35px;
   border: none;
   border-radius: 4px;
+  @media screen and (max-width: 600px) {
+    margin-bottom: 5px;
+    height: 25px;
+  } ;
 `;
 
 export const FormButton = styled.button`
@@ -105,6 +129,10 @@ export const FormButton = styled.button`
   color: #fff;
   font-size: 20px;
   cursor: pointer;
+  @media screen and (max-width: 600px) {
+    padding: 10px;
+    font-size: 16px;
+  } ;
 `;
 
 export const Text = styled.span`
@@ -121,6 +149,11 @@ export const FormTextArea = styled.textarea`
   height: 100px;
   border: none;
   border-radius: 4px;
+
+  @media screen and (max-width: 600px) {
+    margin-bottom: 24px;
+    height: 60px;
+  } ;
 `;
 
 export const FormItemWrapper = styled.div`
@@ -128,5 +161,8 @@ export const FormItemWrapper = styled.div`
   display: flex;
   flex-direction: column;
   width: 50%;
-
+  @media screen and (max-width: 600px) {
+    height: 70%;
+    width: 90%;
+  } ;
 `;

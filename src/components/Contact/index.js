@@ -13,6 +13,7 @@ import {
   FormButton,
   Text,
   FormItemWrapper,
+  ContactPageIcon,
 } from "./ContactElements";
 
 const Contact = () => {
@@ -38,7 +39,7 @@ const Contact = () => {
     <>
       <Container>
         <FormWrap>
-          <Icon to="/">Kenan Abbak</Icon>
+          <ContactPageIcon to="/">Kenan Abbak</ContactPageIcon>
           <FormContent>
             <Form action="#" onSubmit={sendEmail}>
               <FormH1>Do you want website like this? Contact me!</FormH1>
