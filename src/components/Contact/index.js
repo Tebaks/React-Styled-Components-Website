@@ -15,6 +15,7 @@ import {
   ContactPageIcon,
 } from "./ContactElements";
 
+//Contact elements
 const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
